@@ -94,7 +94,9 @@ def get_record(filename):
                 
                 # check for ","
                 if "," in product:
-                    product='\"'+product+'\"'
+                    product='\"'+product+\"''
+
+                    # product='\"'+product+'\"'
                     
                 
                 time = row[0]
