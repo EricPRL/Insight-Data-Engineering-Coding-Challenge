@@ -2,16 +2,10 @@
 
 ## 
 ## Peiran Li
-## 07/27/2020
+## 07/28/2020
 ##
 ## For one product and a certain year, aquire number of complaints, number of companies
 ## and highest percentage of total complaints against one single company.
-
-## To handle unexpectd data in a large amount of dataset
-## when we read line by line, we print error messgaes
-## including line number instead of raising error.
-## This way could help us to find where the error is and fix data.
-## We use edge cases to test the code if it passes rare cases.
 ##
 
 import sys
