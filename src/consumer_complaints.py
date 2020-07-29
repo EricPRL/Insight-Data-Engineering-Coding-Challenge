@@ -93,8 +93,8 @@ def get_record(filename):
                 product = row[1].lower()
                 
                 # check for ","
-                if "," in product:
-                    product='\"'+product+\"''
+                #if "," in product:
+                    #product='\"'+product+\"''
 
                     # product='\"'+product+'\"'
                     
